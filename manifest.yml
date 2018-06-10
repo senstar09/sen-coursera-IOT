@@ -1,0 +1,10 @@
+applications:
+  - path: .
+    name: sen-Coursera-IOT
+    environment_json: {}
+    memory: 256M
+    instances: 1
+    disk_quota: 1024M
+    services:
+      - sen-Coursera-IOT-iotf-service
+      - sen-Coursera-IOT-cloudantNoSQLDB
